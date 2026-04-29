@@ -1,0 +1,13 @@
+{
+  "name": "WMT_labTest_Project",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"pnpm --dir backend dev\" \"pnpm --dir frontend dev\"",
+    "i:a": "pnpm install && pnpm install --dir backend && pnpm install --dir frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
